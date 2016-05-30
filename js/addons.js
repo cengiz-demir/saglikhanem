@@ -1,0 +1,1 @@
+!function(t){"use strict";t(function(){var s={};s.mts_plugins_list="yes",t.ajax({url:document.URL,cache:!1,type:"get",data:s,success:function(s){t(s).find(".mts-addons-list").length>0&&t(".mts-addons-list").replaceWith(t(s).find(".mts-addons-list"))}})})}(jQuery);
