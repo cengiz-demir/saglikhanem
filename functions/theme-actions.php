@@ -121,7 +121,7 @@ if (!function_exists('mts_the_breadcrumb')) {
     function mts_the_breadcrumb() {
         echo '<div typeof="v:Breadcrumb" class="root"><a rel="v:url" property="v:title" href="';
         echo esc_url( home_url() );
-        echo '">'.esc_html(sprintf( __( "Home", 'sociallyviral' )));
+        echo '">'.esc_html(sprintf( __( "Anasayfa", 'sociallyviral' )));
         echo '</a></div><div><i class="fa fa-angle-double-right"></i></div>';
         if (is_single()) {
             $categories = get_the_category();
